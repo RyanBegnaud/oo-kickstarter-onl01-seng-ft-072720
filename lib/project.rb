@@ -9,6 +9,6 @@ class Project
   
   def add_backer(backer)
     @backers << backer 
-    binding.protect_from_forgery
+    binding.pry
   end
 end
